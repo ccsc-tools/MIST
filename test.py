@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.metrics import confusion_matrix
 from tqdm import tqdm
 from model_architecture import MTST
-
+import os 
 # --- Configuration ---
 PROCESSED_DATA_DIR = "data/processed"
 MODEL_PATH = "models/mtst_flare_model.pth"
